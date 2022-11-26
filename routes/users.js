@@ -9,7 +9,7 @@ const router = Router()
 
 
 // GET
-router.get('/' , usersGet );
+router.get('/',usersGet );
 
 // POST
 router.post('/' ,[
