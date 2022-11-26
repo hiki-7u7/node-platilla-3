@@ -3,7 +3,7 @@ const moongose = require('mongoose');
 const dbConection = async () => {
 
     try {
-        const conection = await moongose.connect(process.env.MONGODB_ATLAS)
+        await moongose.connect(process.env.MONGODB_ATLAS)
 
         console.log('base de datos iniciada')
         
